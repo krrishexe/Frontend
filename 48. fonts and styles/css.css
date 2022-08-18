@@ -1,0 +1,36 @@
+/* *{
+    text-align: right;
+} */
+
+body{
+    background-color: cornsilk;
+    /* background-image: url(nate-johnston-MYsLigRrrXc-unsplash.jpg); */
+    background-size: cover;
+}   
+p{
+    color: blue;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+img{
+    float: right;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
+p {
+    color: rgb(219, 15, 49);
+    /* text-decoration: line-through; */
+    text-transform: uppercase;
+    line-height: 35px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 120%;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}

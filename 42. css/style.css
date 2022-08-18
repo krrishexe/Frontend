@@ -1,0 +1,50 @@
+/* selector {
+    property : value ;    --> this bascially sums up css
+} */
+
+                                /* --> this '*' is always at the top and refers to all the tags */
+*{
+    text-align: right;
+}
+
+body{
+    background-color: cornsilk;
+    /* background-image: url(nate-johnston-MYsLigRrrXc-unsplash.jpg); */
+    background-size: cover;
+}   
+h2+ p{
+    color: blue;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+p {
+    color: rgb(219, 15, 49);
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.webd{
+    color: black;
+    border: 3px dashed green;
+    text-align: center;
+    
+}
+.webdev:first-child{
+    color: green;
+    border: 2px solid blue;
+    text-align: center;
+}
+#div1{
+    background-color: rgba(0, 255, 0, 0.2);
+    
+}
+#div2{
+    background-color: gainsboro;
+    
+}
+/* IN SELECTORS */
+/* element element for ex-> (h2 p) this means h2 ke andar jo p hai vo change hoga  */
+/* elemwnt + element for ex (h2 +p ) this means select the p that is right after h2  */
+/* !important for ex (p{color:green; !important}) will turn all the p of green color  */

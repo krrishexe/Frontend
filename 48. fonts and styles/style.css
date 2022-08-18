@@ -1,0 +1,40 @@
+/* selector {
+    property : value ;    --> this bascially sums up css
+} */
+
+                                /* --> this '*' is always at the top and refers to all the tags */
+
+
+body{
+    background-color: cornsilk;
+    /* background-image: url(nate-johnston-MYsLigRrrXc-unsplash.jpg); */
+    background-size: cover;
+}   
+h2{
+    color: aquamarine;
+}
+                               /* em means element and it changes wrt to the px we use 
+                               whereas rem mean root element and its doesnt changes wrt to px. */
+p{
+    font-size: 30px;
+    color: white;
+}
+span{
+    font-size: 5rem;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.boxmodel{
+    border: 5px solid red;
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+    margin: 15px 40px 15px 40px;
+    
+}
+
+/* IN SELECTORS */
+/* element element for ex-> (h2 p) this means h2 ke andar jo p hai vo change hoga  */
+/* elemwnt + element for ex (h2 +p ) this means select the p that is right after h2  */
+/* !important for ex (p{color:green; !important}) will turn all the p of green color  */

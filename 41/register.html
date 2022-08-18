@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+    </head>
+    <body>
+        <br>
+        
+        <form method = "get" action="backend.php">
+            <div>
+                <label for="name1">First name :</label>
+            <input type="text" name="myName" id="name1">
+            </div>
+            <br>
+            <div>
+                <label for="name2">Last name :</label>
+            <input type="text" name="myName" id="name2">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" name="myEmail" id="Email" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password"  minlength="5" id ="pass">
+            </div>
+            <br>
+            <div>
+                Birthday: <input type="date" name="" id="">
+            </div>
+            <br>
+            Gender: <br>
+            male<input type="radio" name="gender" id="gender"><br>
+            female<input type="radio" name="gender" id="gender"><br>
+            other<input type="radio" name="gender" id="gender"><br>
+            <br>
+                                          <!-- name and value tags are interlinked and are used for backend purposes   (video 35 last minute)-->
+            Pets: <br>
+            Dog<input type="checkbox"><br>
+            cat<input type="checkbox"><br>
+            mouse<input type="checkbox"><br>
+            hamster<input type="checkbox"><br>
+            <br>                                          
+                                              <!-- div is a block element and span is an inline element -->
+            select your car :<br>   
+            <select multiple name="" id="">
+                <option value="Audi">audi</option>
+                <option value="Volvo">volvo</option>
+            </select>
+
+            <br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+            <br>
+        </form>
+    </body>
+</html>
+</html>
