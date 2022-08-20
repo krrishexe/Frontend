@@ -13,7 +13,7 @@ console.log(double);
 
 //     MAP  ( we dont need to create a new double array in Map method)
 
-const mapArray = array.map(num =>  num*2 );
+const mapArray = array.map(num =>  num*2);
 console.log(mapArray); // map -> [2,4,20,32]
 
 //      FILTER ( Any CONDITION OR ELEMENTS GREATER THAN 5 )
